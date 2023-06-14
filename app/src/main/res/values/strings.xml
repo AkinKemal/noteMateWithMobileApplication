@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">NoteMate</string>
+    <string name="my_notes">My Notes</string>
+    <string name="search">search</string>
+    <string name="title_note">Title</string>
+    <string name="note">Note</string>
+    <string name="message_delete_note">Are you sure you want to delete this note?</string>
+    <string name="message_add_url">Add Web URL</string>
+    <string name="confirm">CONFIRM</string>
+    <string name="cancel">Cancel</string>
+    <string name="url">URL</string>
+    <string name="add">Add</string>
+    <string name="title">Title</string>
+    <string name="web_url">Web URL</string>
+    <string name="note_text">Note Text</string>
+    <string name="date">Date</string>
+</resources>

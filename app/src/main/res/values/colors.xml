@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="note_color_1">#03A9F4</color>
+    <color name="note_color_2">#8BC34A</color>
+    <color name="note_color_3">#F06292</color>
+    <color name="note_color_4">#FF7043</color>
+    <color name="note_color_5">#BA68C8</color>
+    <color name="note_color_6">#9E9E9E</color>
+    <color name="note_color_7">#9E9E9E</color>
+    <color name="default_color">#FFC64E</color>
+    <color name="delete_icon_color">#FF4E48</color>
+
+    <color name="color_white">#FFFFFF</color>
+    <color name="color_black">#000000</color>
+    <color name="color_background">#F4F4F4</color>
+    <color name="color_view_background">#DBDBDB</color>
+    <color name="color_text_title">#343434</color>
+    <color name="color_done_icon">#26C75C</color>
+
+    <color name="app_color_1">#4168D5</color>
+    <color name="app_color_2">#4168D5</color>
+</resources>

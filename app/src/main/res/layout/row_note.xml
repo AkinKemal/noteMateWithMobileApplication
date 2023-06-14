@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cardView_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="10dp">
+
+    <LinearLayout
+        android:id="@+id/linearLayout_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/note_color_7"
+        android:orientation="vertical"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:id="@+id/textView_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bold"
+            android:text="@string/title"
+            android:textColor="@color/color_white"
+            android:textSize="13sp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/textView_url_note"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="web"
+            android:fontFamily="@font/regular"
+            android:text="@string/web_url"
+            android:textColor="@color/color_white"
+            android:textSize="13sp"
+            android:visibility="gone">
+        </TextView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/view_background">
+        </View>
+
+        <ImageView
+            android:id="@+id/imageView_image_note"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:visibility="gone"
+            tools:ignore="ContentDescription">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/textView_note_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/regular"
+            android:text="@string/note_text"
+            android:textColor="@color/color_white"
+            android:textSize="13sp">
+        </TextView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/view_background">
+        </View>
+
+        <TextView
+            android:id="@+id/textView_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/light"
+            android:text="@string/date"
+            android:textColor="@color/color_white"
+            android:textSize="11sp">
+        </TextView>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
